@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: oxygen,sans-serif;
+    --orange: #FF7A0290;
+    --light-orange: #FEB12290;
+}
+body {
+    color: #efefef;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #efefef;
+}
+.container_cardBackground-orange {
+    background: url(./public/backgrounds/Rectangle\ 1.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.container_card-orange{
+    background: linear-gradient(var(--orange),var(--light-orange));
+    padding: 100px 20px 20px 20px;
+    width: 100%;
+    height: 100%;
+}
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_nav {
+    width: fit-content;
+}
+.header_nav a{
+    margin: 0 10px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+footer{
+    position: fixed;
+    top: 92%;
+    left: 10px;
+}
+
+.card span {
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    transform: scale(-1,-1);
+}
